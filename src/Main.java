@@ -77,8 +77,8 @@ public class Main {
                 }
 
                 case 10 -> {
-                    System.out.print("Enter player name: ");
-                    Queries.getStrikeRate(sc.nextLine());
+                System.out.print("Enter player name: ");
+                Queries.getStrikeRate(sc.nextLine());
                 }
 
                 case 11 -> {

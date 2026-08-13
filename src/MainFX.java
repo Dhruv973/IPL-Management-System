@@ -1,6 +1,7 @@
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -133,21 +134,7 @@ public class MainFX extends Application {
         statsBtn.setOnAction(e -> output.setText(capture(() -> Queries.topStats())));
         teamRunsBtn.setOnAction(e -> output.setText(capture(() -> Queries.teamTotalRuns())));
 
-        /*addStadiumBtn.setOnAction(e -> {
-            TextInputDialog d = new TextInputDialog();
-            d.setHeaderText("Enter: id,name,city,capacity");
-            d.showAndWait().ifPresent(input -> {
-                try {
-                    String[] p = input.split(",");
-                    Queries.addStadium(
-                            Integer.parseInt(p[0]), p[1], p[2], Integer.parseInt(p[3]));
-                    output.setText("Stadium Added!");
-
-                } catch (Exception ex) {
-                    output.setText("Invalid input");
-                }
-            });
-        });*/
+    
 
         addStadiumBtn.setOnAction(e -> {
             TextInputDialog d = new TextInputDialog();

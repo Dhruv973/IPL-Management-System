@@ -8,7 +8,7 @@ public class DBConnection {
             Class.forName("oracle.jdbc.driver.OracleDriver");    //loads jdbc driver into the memory
 
             Connection con = DriverManager.getConnection(     //establishing connection
-                    "jdbc:oracle:thin:@localhost:1521:XE", //connection url ; 1521 port number
+                    "jdbc:oracle:thin:@localhost:1521/XEPDB1", //connection url ; 1521 port number
                     "apurv1234",   // user
                     "apurv1234"  // pass
             );

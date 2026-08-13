@@ -231,7 +231,8 @@ public class Queries {
         } catch (Exception e) { System.out.println(e); }
     }
 
-    // NO CURSOR IN JAVA, RESULTSET REPLACES THE FUNCTIONALITY
+    // Java uses ResultSet to display players.
+    // The PL/SQL version uses a cursor.
     public static void playersByTeam(int id) {
         try {
             Connection con = DBConnection.connect();
