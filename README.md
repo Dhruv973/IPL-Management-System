@@ -6,6 +6,12 @@ The project demonstrates database design, SQL queries, PL/SQL integration, JDBC 
 
 ---
 
+## Application Preview
+
+![IPL Management System](ipl-system-screenshot.png)
+
+---
+
 ## Features
 
 - View all IPL teams
