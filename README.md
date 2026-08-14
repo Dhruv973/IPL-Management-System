@@ -1,4 +1,4 @@
-# IPL Management System
+# 🏏 IPL Management System
 
 A Java-based IPL Management System developed using JDBC and Oracle Database to manage teams, players, stadiums, matches, coaches, and player statistics.
 
@@ -6,13 +6,13 @@ The project demonstrates database design, SQL queries, PL/SQL integration, JDBC 
 
 ---
 
-## Application Preview
+## 📸 Application Preview
 
 ![IPL Management System](ipl-system-screenshot.png)
 
 ---
 
-## Features
+## ✨ Features
 
 - View all IPL teams
 - Search player by name
@@ -30,7 +30,7 @@ The project demonstrates database design, SQL queries, PL/SQL integration, JDBC 
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Java 17**
 - **JDBC**
@@ -44,7 +44,7 @@ The project demonstrates database design, SQL queries, PL/SQL integration, JDBC 
 
 ---
 
-## Project Overview
+## 📋 Project Overview
 
 The IPL Management System is designed to manage and retrieve information related to an Indian Premier League cricket tournament.
 
@@ -79,7 +79,7 @@ IPL-Management-System/
 
 ---
 
-## Database
+## 🗄️ Database
 
 The project uses **Oracle Database XE** as the backend database.
 
@@ -99,7 +99,7 @@ The database manages information related to:
 
 ---
 
-## Requirements
+## ⚙️ Requirements
 
 Before running the project, make sure the following are installed:
 
@@ -113,7 +113,7 @@ The Oracle Database should be running before starting the application.
 
 ---
 
-## Database Setup
+## 🚀 Database Setup
 
 1. Install and configure **Oracle Database XE**.
 2. Open Oracle SQL Developer or another Oracle SQL environment.
@@ -126,7 +126,7 @@ The database must be running before starting the Java application.
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
 ### Console Version
 
@@ -172,7 +172,7 @@ The JavaFX application will open as a graphical IPL Management System.
 
 ---
 
-## Important
+## ⚠️ Important
 
 The `lib/` folder is ignored by Git and is not included in the GitHub repository.
 
@@ -180,7 +180,7 @@ Anyone cloning the project will need to install the JavaFX SDK and Oracle JDBC D
 
 ---
 
-## License
+## 📄 License
 
 This project is intended for educational purposes.
 
