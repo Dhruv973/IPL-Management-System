@@ -3,11 +3,8 @@
 A Java-based IPL Management System developed using JDBC and Oracle Database to manage teams, players, stadiums, matches, coaches, and player statistics.
 
 The project demonstrates database design, SQL queries, PL/SQL integration, JDBC connectivity, and a JavaFX-based graphical user interface.
-<<<<<<< HEAD
-=======
 
 ---
->>>>>>> 18c5a0f (Improve project README)
 
 ## Features
 
@@ -24,18 +21,6 @@ The project demonstrates database design, SQL queries, PL/SQL integration, JDBC 
 - Display players of a team
 - Menu-driven console application
 - JavaFX graphical user interface
-<<<<<<< HEAD
-
-## Tech Stack
-
-- Java 17
-- JDBC
-- Oracle Database XE
-- SQL
-- PL/SQL
-- JavaFX
-- VS Code / IntelliJ IDEA
-=======
 
 ---
 
@@ -52,22 +37,6 @@ The project demonstrates database design, SQL queries, PL/SQL integration, JDBC 
 - **Git & GitHub**
 
 ---
-
-## Project Overview
-
-The IPL Management System is designed to manage and retrieve information related to an Indian Premier League cricket tournament.
-
-The application connects to an Oracle Database using JDBC and performs various operations such as retrieving teams, players, coaches, stadiums, match information, and player statistics.
-
-The project contains two interfaces:
-
-1. **Console Application** – menu-driven Java application
-2. **JavaFX Application** – graphical user interface
-
-The system also demonstrates the use of Oracle PL/SQL features such as stored procedures, functions, and cursors.
-
----
->>>>>>> 18c5a0f (Improve project README)
 
 ## Project Overview
 
